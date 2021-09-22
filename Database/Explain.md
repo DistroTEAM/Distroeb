@@ -16,7 +16,7 @@ Database has 8 Tables
 ## Relations and ERD  
 Relations                  |  ERD  
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)   |  ![](https://...Ocean.png)
+![Relation](https://github.com/hoco1/Distroteam.github.io/blob/main/Database/img/Screenshot%202021-09-22%20211028.jpg)   |  ![ERD](https://github.com/hoco1/Distroteam.github.io/blob/main/Database/img/ERD.jpg)
 
 ## Query
 Show all permission and roles  
