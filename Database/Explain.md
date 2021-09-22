@@ -17,7 +17,7 @@ Database has 8 Tables
 Relations                  |  ERD  
 :-------------------------:|:-------------------------:
 ![Relation](https://github.com/hoco1/Distroteam.github.io/blob/main/Database/img/Screenshot%202021-09-22%20211028.jpg)   |  ![ERD](https://github.com/hoco1/Distroteam.github.io/blob/main/Database/img/ERD.jpg)
-
+**To display better, you can use attach files**  
 ## Query
 Show all permission and roles  
 ```sql
