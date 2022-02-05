@@ -1,122 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://kit.fontawesome.com/4a679d8ec0.js" crossorigin="anonymous"></script>
-    <style>
-      body, html {
-        height: 100%;
-        margin: 0;
-      }
-      
-      
-    
-      .bgimg {
-        background-image: url('002.png');
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 25px;
-      }
-    
-      .topleft {
-        position: absolute;
-        padding: 20px;
-        top: 0;
-        left: 0;
-      }
-    
-      .bottomleft {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-      }
-      .footer {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        text-align: center;
-      }
-      .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-      .topcorner{
-        position:absolute;
-        padding: 20px;
-        top:0;
-        right:0;
-      }
-    
-      hr {
-        margin: auto;
-        width: 40%;
-      }
-      .atag {
-        color: white;
-        text-decoration: none;
-      }
-      
-      </style>
-    <title>Distro ;)</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+	<title>Distro Community :)</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.svg"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/teamStyle.css">
+<!--===============================================================================================-->
+<style>
+	img {
+	  border-radius: 50%;
+	}
+	</style>
+</head>
+<body>
+	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
+		<span></span>
+		<div class="flex-col-c p-t-50 p-b-50">
+			<h3 class="l1-txt1 txt-center p-b-10">
+				Coming Soon
+			</h3>
 
-  <div class="bgimg">
-    <div class="topleft">
-      <a class="atag" href="http://distroblog.ir"><i class="fa fa-globe"></i> Distro</a>
-    </div>
-    <div class="middle">
-      <h1>Distro Blog</h1>
-      <h3>Coming Soon</h3>
-      <hr>
-      <p id="demo" style="font-size:30px"></p>
-    </div>
-    <div class="topcorner">
-      <a class="atag" href="https://t.me/distrotv"><i class="fa fa-telegram"></i> Telegram</a>
-    </div>
-    <div class="footer">
-      <footer>
-         <img src=" https://img.shields.io/github/watchers/distroteam/distroteam.github.io?color=black&logoColor=black&style=for-the-badge"></img> 
-      </footer>
-    </div>
-  </div>
+			<p class="txt-center l1-txt2 p-b-60">
+				Distro Community
+			</p>
 
-  <script>
-  // Set the date we're counting down to
-  var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+			<div class="flex-w flex-c cd100 p-b-82">
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 days">35</span>
+					<span class="s1-txt1">Days</span>
+				</div>
 
-  // Update the count down every 1 second
-  var countdownfunction = setInterval(function() {
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 hours">17</span>
+					<span class="s1-txt1">Hours</span>
+				</div>
 
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-      clearInterval(countdownfunction);
-      document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-  }, 1000);
-  </script>
-  </body>
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 minutes">50</span>
+					<span class="s1-txt1">Minutes</span>
+				</div>
+
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 seconds">39</span>
+					<span class="s1-txt1">Seconds</span>
+				</div>
+			</div>
+		</div>
+
+		<span class="s1-txt3 txt-center">
+			@ 2022 Distro. Designed by  <a href="https://github.com/distroteam">Distroteam</a><br><br>
+			<a href="https://github.com/shabane"><img src="https://avatars.githubusercontent.com/u/51704066?v=4" alt="Avatar" style="width:40px"></a>
+			<a href="https://github.com/mehranalam"><img src="https://avatars.githubusercontent.com/u/77109284?v=4" alt="Avatar" style="width:40px"></a>
+			<a href="https://github.com/hoco1"><img src="https://avatars.githubusercontent.com/u/47009428?v=4" alt="Avatar" style="width:40px"></a>
+		</span>
+	<div align="center">
+		<img src="images/icons/favicon.svg" height="20" width="20"/>
+	</div>
+		
+	</div>
+	
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			// Set Endtime here
+			// Endtime must be > current time
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 35,
+			endtimeHours: 18,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York", can be empty
+			// go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
 </html>
