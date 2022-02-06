@@ -1,5 +1,5 @@
-# Distro Blog
+# Distroeb
 
-**Coming Soon**
+A Official website for publishing post service
 
 By **Team**
