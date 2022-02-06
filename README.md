@@ -1,10 +1,11 @@
-# Distroeb
-#### A clone of Medium.com 
+# [Distroblog.ir](https://distroblog.ir)
 
-A Official website for publishing post service
 
+A Official website for Distroteam
+
+- Map :
 ```txt
-git clone https://github.com/distroteam/distroeb.git
-```
+Comming Soon ----|
+                 |--- JS , HTML , CSS
 
-this service will in future change to be [Medium.com](https://medium.com)
+```
