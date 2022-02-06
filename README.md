@@ -9,4 +9,4 @@ git clone https://github.com/distroteam/distroeb.git
 
 ```
 
-this service will in future change to be Medium.com
+this service will in future change to be [Medium.com](https://medium.com)
